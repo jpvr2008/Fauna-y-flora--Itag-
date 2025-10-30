@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Fauna & Flora — Demo</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    body{display:flex;align-items:center;justify-content:center;height:100vh;margin:0}
+    .card{max-width:880px;padding:24px;border-radius:14px;box-shadow:0 12px 30px rgba(16,24,40,0.08);background:linear-gradient(180deg,#fff,#fbfbfb)}
+    a.cta{display:inline-block;margin-top:14px;padding:10px 14px;border-radius:10px;background:linear-gradient(90deg,#1e90ff,#4aa6ff);color:#fff;text-decoration:none;font-weight:700}
+    p.small{color:#6b7280;margin-top:8px}
+    a.cta.secondary{background:linear-gradient(90deg,#2db67a,#6ee7b7);margin-left:8px}
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Fauna & Flora — Demo</h1>
+    <p class="small">Si tu servidor no ejecuta PHP, puedes ver el diseño aquí. Para usar el panel real (requiere PHP), haz clic en "Abrir panel".</p>
+    <a class="cta" href="admin/config.html">Abrir panel (HTML)</a>
+    <a class="cta secondary" href="admin/config.html?show_csrf=1">Debug CSRF (localhost)</a>
+    <p class="small">Si usas Live Server abre: http://127.0.0.1:5500/</p>
+  </div>
+</body>
+</html>

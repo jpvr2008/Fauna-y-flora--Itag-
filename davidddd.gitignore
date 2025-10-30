@@ -1,0 +1,23 @@
+# Node/npm
+node_modules/
+
+# VS Code
+.vscode/*
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# PHP artifacts
+*.pdb
+*.log
+
+# OS
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Import folder (kept for review) - uncomment to ignore
+# imported_nueva_carpeta/
+
+# Composer, caches
+vendor/
+composer.lock
